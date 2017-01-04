@@ -1,0 +1,110 @@
+.promotion{
+	width: 980px;
+	height: 245px;
+	margin: 0 auto;
+	font-size: 12px;
+	a:hover{
+		color: #00a1d6 !important;
+	}
+	article{
+		width: 700px;
+		height: 194px;
+		overflow: hidden;
+		.header{
+			width: 100%;
+			height: 39px;
+			i{
+				display: block;
+				float: left;
+				width: 50px;
+				height: 39px;
+				background: url(../img/icons.png) no-repeat -141px -75px;
+			}
+			span{
+				display: block;
+				float: left;
+				width: 50px;
+				height: 39px;
+				font-size: 24px;
+				line-height: 40px;
+			}
+			.list{
+				a{
+					display: block;
+					float: left;
+					height: 20px;
+					color: #6d757a;
+					margin-top: 14px;
+					&:nth-child(1){
+						margin-left: 15px;
+						margin-right: 10px;
+					}
+					&:nth-child(2),&:nth-child(3){
+						border-left: 1px solid #6d757a;
+						padding-left: 10px;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+		.body{
+			width: 720px;
+			height: 160px;
+			margin-top: 10px;
+			position: relative;
+			li{
+				width: 160px;
+				height: 140px;
+				background:#fff;
+				margin: 0 20px 20px 0;
+				overflow: hidden;
+				.img{
+					width: 160px;
+					height: 100px;
+					background:#000;
+					display: block;
+					border-radius:4px;
+					margin-bottom: 5px;
+					overflow: hidden;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+	aside{
+		width: 260px;
+		height: 195px;
+		margin-left: 15px;
+		.header{
+			width: 100%;
+			height: 34px;
+			background: #e5e9ef;
+			border-radius: 4px;
+			a{
+				display: inline-block;
+				color: #6d757a;
+				margin-top: 8px;
+				margin-left: 12px;
+				&:nth-child(1){
+					margin-right: 12px;
+				}
+			}
+			b{
+				display: inline-block;
+				border-left: 1px solid #b8c0cc;
+				height: 10px;
+			}
+		}
+		.body{
+			width: 260px;
+			height: 150px;
+			border-radius:4px;
+			background:#fff;
+			margin-top: 10px;
+			overflow: hidden;
+		}
+	}
+}

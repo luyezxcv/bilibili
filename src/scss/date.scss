@@ -1,0 +1,166 @@
+.date{
+	width: 980px;
+	height: 406px;
+	margin:0 auto;
+	article{
+		width: 700px;
+		height: 406px;
+		.header{
+			width: 100%;
+			height: 36px;
+			ul{
+				width: 570px;
+				height: 35px;
+				float: left;
+				border-bottom:1px solid #e5e9ef;
+				li{
+					width: 60px;
+					height: 35px;
+					text-align: center;
+					span{
+						margin-top: 5px;
+						display: block;							
+					}
+					b{
+						font-weight: normal;
+						display: none;
+					}
+				}	
+				.on{
+					width:120px;
+					height:36px;
+					background-color:#00a1d6;
+					position:relative;
+					border-radius:4px;
+					i{
+						display: block;
+						float: left;
+						position: absolute;
+						top: -20px;
+						left: 10px;
+						width: 54px;
+						height: 54px;
+						background:url(../img/bangumi-weekday.png) no-repeat -933px -38px;
+					}
+					span{
+						display: block;
+						float: left;
+						margin:3px 0 0 70px;
+						font-size: 20px;
+						font-weight: bold;
+						color: #fff;
+					}
+					&:before{
+						content: "";
+						position:absolute;
+						border-top:10px solid #00a1d6;
+						border-left:10px solid transparent;
+						border-right:10px solid transparent;
+						bottom:-8px;
+						left: 50px;
+					}
+					b{
+						display: inline;
+						font-weight: bold;
+					}
+				}
+			}
+			.public{
+				width: 106px;
+				height: 36px;
+				border:1px solid #f25d8e;
+				float: right;
+				border-radius:4px;
+				a{
+					display: block;
+					width: 100%;
+					height: 100%;
+					span{
+						display: block;
+						float: left;
+						color: #f25d8e;
+						margin:5px 0 0 10px;
+					}
+					i{
+						width: 10px;
+						height: 15px;
+						display: block;
+						float: left;
+						margin:10px 0 0 5px;
+						background:url(../img/icons.png) no-repeat -478px -281px;
+					}
+				}
+				&:hover a{
+					background-color:#f25d8e;
+				}
+				&:hover span{
+					color: #fff;
+				}
+				&:hover i{
+					background-position: -541px -218px;
+				}
+			}
+		}
+		.body{
+			width: 100%;
+			height: 288px;
+			margin-top: 40px;
+			overflow: auto;
+			position:relative;
+			&>div{
+				display: none;
+				&:nth-child(1){
+					display: block;
+				}
+			}
+			li{
+				width: 180px;
+				height: 72px;
+				background:#fff;
+				margin:0 45px 35px 0;
+				.img{
+					width: 72px;
+					height: 72px;
+					background:#000;
+					float: left;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.title{
+					float: left;
+					width: 100px;
+					height: 72px;
+					position:relative;
+					margin-left: 5px;
+					p{
+						font-size: 12px;
+						margin-left: 5px;
+						word-break:break-all;
+					}
+					.text{
+						height: 36px;
+						overflow: hidden;
+					}
+					.update{
+						position:absolute;
+						bottom:0;
+						color: #aaa;
+						i{
+							display: block;
+							float: right;
+							width: 36px;
+							height: 18px;
+							background-color:#b8c0cc;
+							border-radius:8px;
+							text-align:center;
+							margin-left: 5px;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
